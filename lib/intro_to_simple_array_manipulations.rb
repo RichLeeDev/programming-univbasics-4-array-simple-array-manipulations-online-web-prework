@@ -11,8 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  new_array = array.pop
-  new_array2 = new_array.pop
+  array.pop(array.last, array.)
 end
 
 def using_shift
